@@ -11,7 +11,7 @@ orders = [
         "id": 2,
         "customer": "Мария",
         "items": [
-            {"name": "Телефон", "price": 300000},
+            {"name": "Телефон", "price": 30000},
             {"name": "Чехол", "price": 1000},
             {"name": "Зарядка", "price": 2000}
         ]
@@ -24,6 +24,7 @@ orders = [
         ]
     }
 ]
+# - > [("Иван", 54500), ("Мария", 33000)]
 # - 1)
 r_data = []
 for i_orders in orders:
